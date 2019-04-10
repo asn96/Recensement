@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".atelier"
+    android:orientation="vertical"
+    >
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/l1"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorBackground">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sujet"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="24sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lieu"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginLeft="120dp"/>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l1"
+        android:id="@+id/l2"
+        android:layout_centerVertical="true"
+        >
+
+
+        <ListView
+            android:id="@+id/list_ateliers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="70dp"
+            android:scrollbars="vertical"
+            android:textStyle="bold"
+            />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+
+
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/l3"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ateliers"
+            android:textSize="18sp"
+            tools:ignore="MissingConstraints"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/list_atelier_nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nombre"
+            android:textSize="18sp"
+            android:background="@drawable/button_ins"
+            android:textColor="#FFFFFF"
+            android:padding="5dp"
+            android:textStyle="normal"
+            android:layout_marginLeft="10dp"
+            tools:ignore="MissingConstraints"
+            android:layout_marginStart="10dp" />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+
+</RelativeLayout>
