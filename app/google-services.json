@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "291259015307",
+    "firebase_url": "https://clubtdsi.firebaseio.com",
+    "project_id": "clubtdsi",
+    "storage_bucket": "clubtdsi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291259015307:android:4c0a7f57af7e7a7f",
+        "android_client_info": {
+          "package_name": "com.amad.clubtdsi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "291259015307-j9d10qe3r5r20r36ussiqq1e6tpqq2mv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoElTTP8-P6lmYSVyZCP7914U2dDjZI1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "291259015307-j9d10qe3r5r20r36ussiqq1e6tpqq2mv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -12,20 +12,22 @@
 
 
     <string-array name="list_atelier">
-        <item>Atelier</item>
-        <item>Sécurisation des serveurs webs</item>
-        <item>Vagrant et Ansible</item>
-        <item>messagerie sécurisé avec postfix roundcube clamav et spamassasin</item>
-        <item>L\'utilité et les atouts du système linux</item>
-        <item>Sécuriser un réseau avec Iptables + SELinux</item>
-        <item>Développement mobile avec Kivy en python</item>
-        <item>Création d\'un site Web avec Angular 7</item>
-        <item>IoT : Système d’irrigation intelligent</item>
-        <item>Web Scraping - Extraction des données dont vous avez besoin à partir de sites Web.</item>
-        <item>IoT : Système d’irrigation intelligent</item>
+        <item>Ethical Hacking</item>
+        <item>Créer une lampe connecté de A à Z</item>
+        <item>Initiation aux modèles de Deepfake</item>
+        <item>Gestionnaire d\'authentification centralisé avec KeyCloak</item>
+        <item>Prise en main d\'un SIEM open source</item>
+        <item>Prise en main de Kali Linux</item>
+        <item>Juri : le drone connecté</item>
+        <item>Pipeline DevOps CI/CD</item>
+        <item>Outils de protection d\'un serveur Linux</item>
+        <item>Tests d\'intrusion Windows et Active Directory </item>
+        <item>Pratique sujr un outil de fabrication d\'un Linux embarqué</item>
+        <item>DevSecOps : Concepts et mikse en place</item>
+        <item>Mise en place d\'un VPN avec pfsense</item>
     </string-array>
 
-    <string name="made">Make by Club TDSI</string>
+    <string name="made">Make by Amad Saïd NDIAYE</string>
     <string name="error_field_required">le champ est requis</string>
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
